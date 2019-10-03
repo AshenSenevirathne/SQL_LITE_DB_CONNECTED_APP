@@ -2,7 +2,7 @@ package DataBase;
 
 import android.provider.BaseColumns;
 
-public class UserMaster {
+public final class UserMaster {
 
     private UserMaster(){}
 
