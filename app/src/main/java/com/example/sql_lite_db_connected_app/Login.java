@@ -4,14 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import DataBase.DbHelper;
+public class Login extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-    DbHelper dbHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        dbHelper = new DbHelper(this);
+        setContentView(R.layout.activity_login);
     }
 }
