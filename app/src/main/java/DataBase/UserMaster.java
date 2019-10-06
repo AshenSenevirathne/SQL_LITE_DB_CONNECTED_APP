@@ -13,4 +13,6 @@ public final class UserMaster {
         public static final String  userPassword= "Password";
         public static final String  userType= "Type";
     }
+
+
 }
